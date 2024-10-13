@@ -1,7 +1,7 @@
 [![](https://jitpack.io/v/LogicFalcon/SpeedometerCompose.svg)](https://jitpack.io/#LogicFalcon/SpeedometerCompose)
 
 ## Speedometer in Compose
-![ezgif-6-90e2f12730](https://github.com/user-attachments/assets/bc911d28-6de1-460d-91ae-b93fcffc2528)
+<img src="https://github.com/user-attachments/assets/bc911d28-6de1-460d-91ae-b93fcffc2528" width="250" />
 
 
 ## Gradle Integration
