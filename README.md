@@ -1,5 +1,6 @@
 
 ## Speedometer in Compose
+![ezgif-6-90e2f12730](https://github.com/user-attachments/assets/bc911d28-6de1-460d-91ae-b93fcffc2528)
 
 
 ## Gradle Integration
@@ -22,7 +23,7 @@ Next, include the library in your app-level build.gradle file. Replace x.x.x wit
 
 ```groovy
 dependencies {
-  implementation 'com.github.AndroidCrafts-man:RenderSpy:Tag'
+	        implementation 'com.github.LogicFalcon:SpeedometerCompose:Tag'
 }
 ```
 
