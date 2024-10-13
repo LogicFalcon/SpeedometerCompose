@@ -3,6 +3,7 @@
 ## Speedometer in Compose
 <img src="https://github.com/user-attachments/assets/bc911d28-6de1-460d-91ae-b93fcffc2528" width="250" />
 
+A Jetpack Compose library for creating customizable speedometer gauges using Canvas. Easily integrate smooth, animated speed indicators in your Android applications with flexible styling options.
 
 ## Gradle Integration
 
