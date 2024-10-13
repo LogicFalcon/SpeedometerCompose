@@ -1,3 +1,4 @@
+[![](https://jitpack.io/v/LogicFalcon/SpeedometerCompose.svg)](https://jitpack.io/#LogicFalcon/SpeedometerCompose)
 
 ## Speedometer in Compose
 ![ezgif-6-90e2f12730](https://github.com/user-attachments/assets/bc911d28-6de1-460d-91ae-b93fcffc2528)
@@ -18,12 +19,13 @@ dependencyResolutionManagement {
 }
 ```
 
-### Step B: Add Dependencies [![](https://jitpack.io/v/AndroidCrafts-man/RenderSpy.svg)](https://jitpack.io/#AndroidCrafts-man/RenderSpy)
+### Step B: Add Dependencies [![](https://jitpack.io/v/LogicFalcon/SpeedometerCompose.svg)](https://jitpack.io/#LogicFalcon/SpeedometerCompose)
+
 Next, include the library in your app-level build.gradle file. Replace x.x.x with the latest version
 
 ```groovy
 dependencies {
-	        implementation 'com.github.LogicFalcon:SpeedometerCompose:Tag'
+implementation 'com.github.LogicFalcon:SpeedometerCompose:Tag'
 }
 ```
 
