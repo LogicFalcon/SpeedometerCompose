@@ -1,5 +1,6 @@
 package com.base.speedometer
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -29,17 +30,13 @@ import com.speedometer.ProtectionMeter
 
 
 class MainActivity : ComponentActivity() {
+    @SuppressLint("UnusedMaterial3ScaffoldPaddingParameter")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
             SpeedometerTheme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
-                        modifier = Modifier.padding(innerPadding)
-                    )
-                }
+                    Greeting()
             }
         }
     }
@@ -47,7 +44,7 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
+fun Greeting() {
   MainUi()
 }
 
@@ -59,7 +56,6 @@ fun GreetingPreview() {
 @Composable
 fun MainUi(){
     var sliderPosition by remember { mutableFloatStateOf(0f) }
-
     SpeedometerTheme {
         Box(
             modifier = Modifier
