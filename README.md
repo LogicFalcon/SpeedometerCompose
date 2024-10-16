@@ -48,7 +48,7 @@ implementation 'com.github.LogicFalcon:SpeedometerCompose:Tag'
 ### Github : 
 https://github.com/LogicFalcon
 
-### Gmail :
+### Email :
 saeedkhattak1.outlook.com
 
 
